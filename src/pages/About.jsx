@@ -11,9 +11,9 @@ import AboutCart from "../components/carts/AboutCart";
 const About = () => {
   return (
     <>
-      <div className=" absolute w-full  top-[1581px] bg-[#000000] ">
+      <div className=" w-full  top-[1581px] bg-[#000000] ">
        <div style={{
-        position: "absolute",
+        position: "",
         width: "1050px",
         height: "959px",
         left: "170px",

@@ -2,12 +2,13 @@ import React from "react";
 import icon from "../Images/Image.png";
 
 const NavBar = () => {
-  return (<div className="w-[90%] mx-[auto] bg-[#000000]">
-    <nav className=" fixed bg-black   z-[1] h-[106px] ml-[10px] mb-[90px] my-[30px] rounded-[15px] flex flex-row justify-between px-[10px] items-center">
+  return (
+  
+    <nav style={{}} className=" absolute bg-black w-[90%]  z-[1] h-[106px] ml-[5%] mb-[90px] my-[30px] rounded-[15px] flex flex-row justify-between px-[3%]  items-center">
       <div className="">
         <img src={icon} alt="" width="147px" height="63px" />
       </div>
-      <div className="flex flex-row ">
+      <div className="flex flex-row ml-[5%] ">
         <div className=" text-[#ffffff]  font-[900] text-[20px]">
           <ul className="flex flex-row  justify-around content-evenly m-[10px]">
             <li className="mx-[20px]">
@@ -36,7 +37,8 @@ const NavBar = () => {
           </a>
         </div>
       </div>
-    </nav></div>
+    </nav>
+    
   );
 };
 
