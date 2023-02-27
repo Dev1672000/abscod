@@ -1,5 +1,4 @@
 import React from 'react'
-import Rocket from "../../Images/rockect.png";
 
 const WhyMeCart = ({progress,content,src}) => {
   return (

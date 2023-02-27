@@ -11,7 +11,7 @@ const Footer = () => {
         <div  className="  flex flex-col justify-start content-center  pl-[15px] w-[30%]  bg-[#000000] ">
           <div className="">
               <a href="/" class="">
-              <img src={icon} width="60%" height="60%" />
+              <img src={icon} alt="icon" width="60%" height="60%" />
             </a>
           </div>
           <p className="text-[#ffffff] ml-[18px] w-[70%]">

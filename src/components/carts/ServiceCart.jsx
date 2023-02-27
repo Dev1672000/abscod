@@ -1,7 +1,5 @@
 import React from 'react'
 import Button from '../Button'
-import NavigateNextIcon from '@mui/icons-material/NavigateNext';
-
 
 const ServiceCart = ({img,heading,content,background}) => {
   return (
@@ -12,7 +10,7 @@ border: "1px solid #424245",
 borderRadius: "30px"
         }} className='h-[400px] m-[25px] flex flex-col content-evenly justify-evenly box-border border-[2px] items-start text-[#ffffff] px-[41px] py-[39px] gap-[10px] w-[340px]  rounded-[30px] b-[#424245] '>
         
-          <div className=' rounded-[50px] flex justify-center items-center w-[100px] h-[100px] bg-[#ffffff] displ' >
+          <div className=' rounded-[50px] flex justify-center items-center w-[100px] h-[100px] bg-[#ffffff] ' >
             <img src={img} alt="" />
             </div>
             <h1 className='w-[253px] h-[28px] font-[700] text-[25px] leading-[110.5%] '>{heading}</h1>

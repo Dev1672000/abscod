@@ -3,10 +3,10 @@ import sectionIcon from "../../Images/sectionIcon.png"
 
 const SectionCart = ({cartHeading ,cartcontent}) => {
   return (
-         <div style={{
+         <div style={{ borderRadius:"25px",
           borderImage: "linear-gradient(180deg,#FFDA10,#584E16,  #4A4112)",
           "border-image-slice": "1",
-         }} className='w-[384px]  mx-[15px] p-[32px] h-[300px] flex flex-col content-between justify-between border-2  bg-[#000000] rounded-[25px]'>
+         }} className='w-[384px]  mx-[15px] p-[32px] h-[300px] flex flex-col content-between justify-between border-2  bg-[#000000] '>
               <div>
                 <img src={sectionIcon} alt="" height="25px" width="25px" />
                 </div>
