@@ -3,7 +3,7 @@ import React from "react";
 
 const AboutCart = ({ Icon, cartHeading, cartContent }) => {
   return (
-    <div className="w-[400px] m-[15px] p-[32px] h-[270px] box-border rounded-[28px] border-[1px] border-[#424245] flex flex-col content-evenly justify-center bg-gradient-to-t from-gray-900 to-gray-700">
+    <div className="w-[400px]  p-[32px]  box-border rounded-[28px] border-[1px] border-[#424245] flex flex-col content-evenly justify-center bg-gradient-to-t from-gray-900 to-gray-700">
       <div className="flex justify-center items-center text-center rounded-[9px] w-[60px] h-[60px] bg-[#FFDA10]">
         <span className="w-[37px] h-[37px] m-[13px]">
           {Icon}

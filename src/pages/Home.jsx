@@ -5,7 +5,6 @@ import Button from "../components/Button";
 const Home = () => {
   return (
     <div style={{
-      zIndex:"0",
       overflow:"hidden"
     }}>
     <div className="px-[10px]  flex flex-row justify-evenly "
@@ -17,7 +16,7 @@ const Home = () => {
         // height: "100vh",
       }}>
       <div style={{position: "absolute",
-      width: "1310px",
+      width: "100%",
       height: "1197px",
       left: '712px',
       top: "8px",
@@ -34,7 +33,7 @@ const Home = () => {
         left: "-638px",
         top: "-539px",
         zIndex:"0",
-        background: "radial-gradient(50% 50% at 50% 50%, rgba(61, 159, 223, .8) 0%, rgba(0, 0, 0, .5) 100%)",
+        background: "radial-gradient(50% 50% at 50% 50%, rgb(114 184 229 / 80%) 0%, rgba(0, 0, 0, 0.5) 100%)",
         filter: "blur(79px)"
       }}>
       </div>

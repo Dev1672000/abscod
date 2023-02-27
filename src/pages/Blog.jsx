@@ -7,10 +7,11 @@ const Blog = () => {
   return (
     <div>
       <>
- 
-        <div className="min-[375px]:flex-wrapS max-[1440px] h-[80%] w-full pt-[10px] mr-[10px] bg-zinc-700  top-[4821px]   absolute  ">
-          <div className="flex justify-around">
-          <h1 className="text-[#ffffff] text-[56px] mb-[40px] ml-[125px] uppercase content-start  tracking-[0.04em] leading-[42px]">
+     
+
+        <div className="py-[6%]  h-[100%] w-[100%]  bg-blue-900  border-[2px] ">
+          <div className="flex  justify-between  mx-[9%] py-[4%]">
+          <h1 className="text-[#ffffff] text-[41px]  uppercase content-start  font-[900] tracking-[-0.02em] leading-[56px]">
             bLOG POST
           </h1>
 
@@ -23,7 +24,7 @@ const Blog = () => {
       
             // border="1px solid yellow"
             borderColor
-            margin="2px 135px 50px 14px"
+            // margin="2px 135px 50px 14px"
             fontSize="16px"
             letterSpacing="0.015em"
             lineHeight="32px"
@@ -33,7 +34,7 @@ const Blog = () => {
             background="yellow"
           />
           </div>
-          <div className="flex flex-row justify-items-center justify-center w-full  ">
+          <div className="flex flex-row justify-items-center justify-center   ">
           <BlogCart content={"How to increase your Twitter reach by over 200% with this simple trick"} img={blog1} date="September 1, 2022"/>
           <BlogCart content={"How to increase your Twitter reach by over 200% with this simple trick"} img={blog1} date="September 1, 2022"/>
           <BlogCart content={"How to increase your Twitter reach by over 200% with this simple trick"} img={blog1} date="September 1, 2022"/>

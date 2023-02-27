@@ -7,12 +7,14 @@ import Button from "../components/Button";
 
 const Subscribe = () => {
   return (
-    <div className="absolute bg-[#424245]   w-full h-[50%] flex flex-col justify-center items-center text-[#ffffff] ml-[40px] mr-[200px] top-[5430px] rounded-[28px] ">
-      < div className="w-[559px] h-[50px] font-[800] leading-[110%] text-[45px]  mb-[30px] ">
-        Subscribe to our <span className="text-yellow-400">newsletter</span>
+    <div className="bg-[#000000] w-[100%] h-[100%] py-[7%]">
+    <div className="py-[7%] bg-[#424245] mx-[5%] h-[400px] border-[2px]  flex flex-col justify-center content-evenly items-center text-[#ffffff]  rounded-[28px] ">
+      < div className=" font-[800] leading-[110%] text-[45px]  mb-[30px] ">
+        Subscribe to our <span className="text-yellow-200">newsletter</span>
       </div>
+    
 
-      <div className=" flex flex-row justify-center ml-[10px] ">
+      <div className=" flex flex-row justify-center ml-[10px]  ">
         <input
           placeholder="Please Enter Your Email...... "
           type="email"
@@ -34,10 +36,12 @@ const Subscribe = () => {
             borderRadius="4px"
             buttonText="Subscribe"
             width="160px"
-            background="yellow"
+            background=" linear-gradient(98.46deg, #FFDA10 1.57%, #FFE555 103.24%);
+            border-radius: 7px;"
           />
         </div>
       </div>
+    </div>
     </div>
   );
 };

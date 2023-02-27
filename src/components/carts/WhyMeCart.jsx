@@ -1,13 +1,15 @@
 import React from 'react'
+import Rocket from "../../Images/rockect.png";
 
-const WhyMeCart = ({progress,content}) => {
+const WhyMeCart = ({progress,content,src}) => {
   return (
-    <div className='w-[1234px] h-[531px] '
-    style="background-image: linear-gradient(83.27deg, #406CD7 0.84%, #3F9FDF 97.91%);">
-      <img src="" alt=""  />
-      <h1 className='w-[121px] h-[48px] font-[900] text-[41px] leading-[46px] text-center tracking-[-0.02em] uppercase'>{progress}</h1>
-      <p className='w-[190px] h-[33px] font-[500] text-[20px] leading-[28px] text-center text-[#ffffff]'>{content}</p>
+    <div className='flex flex-col justify-end content-end mb-[18px] border-[1px]  border-[#332929] rounded-[8px]'>
+      <div className='flex justify-center'>
+      <img src={src} alt="" width="126px" height="126px"  />
+      </div>
+      <h1 className=' h-[48px] font-[900] text-[41px] leading-[46px] text-center '>{progress}</h1>
 
+      <p className='w-[192px] h-[33px] font-[500] text-[20px] leading-[28px] text-center '>{content}</p>  
     </div>
   )
 }

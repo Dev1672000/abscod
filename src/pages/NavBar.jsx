@@ -4,7 +4,7 @@ import icon from "../Images/Image.png";
 const NavBar = () => {
   return (
   
-    <nav style={{}} className=" absolute bg-black w-[90%]  z-[1] h-[106px] ml-[5%] mb-[90px] my-[30px] rounded-[15px] flex flex-row justify-between px-[3%]  items-center">
+    <nav style={{ boxShadow: " 0px 0px 15px 1px #e6dfdf70"}} className=" absolute    bg-black w-[90%]  z-[1] h-[106px] ml-[5%] mb-[90px] my-[30px] rounded-[15px] flex flex-row justify-between px-[3%]  items-center">
       <div className="">
         <img src={icon} alt="" width="147px" height="63px" />
       </div>
@@ -31,7 +31,7 @@ const NavBar = () => {
           </ul>
         </div>
 
-        <div className=" font-[900]  border-yellow-300  border-[3px] rounded-[13px] text-center py-[10px] px-[40px] rounded[10px]  text-[20px] text-[#ffffff]">
+        <div style={{ boxShadow: " 0px 0px 20px 2px #9f9f3b91"}} className=" font-[900]  border-yellow-300  border-[3px] rounded-[13px] text-center py-[10px] px-[40px] rounded[10px]  text-[20px] text-[#ffffff]">
           <a className="" href="/">
             Free Quote
           </a>
