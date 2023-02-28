@@ -3,7 +3,6 @@ import Button from "../components/Button";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from '@mui/icons-material/Close';
 import icon from "../Images/Image.png";
-import { Hidden } from "@mui/material";
 
 const NavBar = () => {
   let Links = [

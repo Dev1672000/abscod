@@ -2,28 +2,28 @@ import "./App.css";
 import React from "react";
 import NavBar from "./pages/NavBar";
 import Home from "./pages/Home";
-import About from "./pages/About";
+// import About from "./pages/About";
 import Services from "./pages/Services";
 import WhyMe from "./pages/WhyMe";
 import Client from "./pages/Client";
-import Section from "./pages/Section";
+// import Section from "./pages/Section";
 import Footer from "./pages/Footer";
-import Blog from "./pages/Blog";
+// import Blog from "./pages/Blog";
 import Subscribe from "./pages/Subscribe";
-import ClientFeedback from "./pages/ClientFeedback";
+// import ClientFeedback from "./pages/ClientFeedback";
 import AboutSection from "./pages/AboutSection";
 import BlogClientFeedback from "./pages/BlogClientFeedback";
 
 function App() {
   return (
-    <div >
+    <div>
       <NavBar />
       <Home />
-      <AboutSection/>
+      <AboutSection />
       <Client />
       <Services />
       <WhyMe />
-     <BlogClientFeedback/>
+      <BlogClientFeedback />
       <Subscribe />
       <Footer />
     </div>
