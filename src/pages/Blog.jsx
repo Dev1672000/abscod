@@ -9,7 +9,7 @@ const Blog = () => {
       <>
      
 
-        <div className="py-[6%]  h-[100%] w-[100%]  bg-blue-900  border-[2px] ">
+        <div className="py-[6%]  h-[100%] w-[100%] z-[2] relative ">
           <div className="flex  justify-between  mx-[9%] py-[4%]">
           <h1 className="text-[#ffffff] text-[41px]  uppercase content-start  font-[900] tracking-[-0.02em] leading-[56px]">
             bLOG POST
@@ -31,7 +31,7 @@ const Blog = () => {
             borderRadius="4px"
             buttonText="See All Posts"
             width="181px"
-            background="yellow"
+            background="linear-gradient(270deg, #FFDA10 0%, #FFE555 100%)"
           />
           </div>
           <div className="flex flex-row justify-items-center justify-center   ">

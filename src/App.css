@@ -4,3 +4,12 @@
 
   font-family: "Barlow", sans-serif;
 }
+
+@media (max-width:1200px){
+  .navbar-response a {
+    font-size: 16px;
+  }
+  .responsiveFree{
+    padding: 5px;
+  }
+}

@@ -7,8 +7,8 @@ const BlogCart = ({img, date, content}) => {
       <img src={img} alt="" className='w-[100%] h-[100%]  rounded-[12px]' />
       </div>
       <div className='flex flex-row  justify-between  content-evenly '>
-       <div className='border-[1px] boder-[solid] rounded-[28px] w-[98px] mr-[2px] h-[29]'>
-         <button className=' capitalize text-center px-[15px] py-[5px]  text-[#ffffff] '>Marketing</button>
+       <div className='border-[1px] boder-[solid] px-[15px] py-[5px] rounded-[28px]  mr-[2px]'>
+         <button className=' capitalize text-center   text-[18px] font-[500] leading-[160%] text-[#ffffff] '>Marketing</button>
          </div>
         <p className=' uppercase pt-[5px] text-[#ffffff]'>{date}</p>
         </div>

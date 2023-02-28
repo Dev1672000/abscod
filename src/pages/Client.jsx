@@ -2,15 +2,15 @@ import React from "react";
 import Heading from "../components/Heading";
 import DetailCart from "../components/carts/DetailCart";
 
-const Details = () => {
+const Client = () => {
   return (
     <div
       style={{
         background: "linear-gradient(90.15deg, #3E9FDF -0.4%, #4070D8 99.87%)",
       }}
-      className=" h-[300px] flex flex-row content-evenly justify-evenly  items-center ">
+      className=" h-[300px] flex flex-row content-evenly justify-evenly  items-center z-[2] relative ">
         <div className="flex flex-row justify-center w-[5%] h-[300px] ">
-      <div className=" w-[7px]  bg-[#000000]"></div>
+      <div className=" w-[7px]  bg-[rgba(27,24,24,0.95)]"></div>
       <div className=" w-[7px] ml-[-35px] bg-[#000000]"></div>
       </div>
       <div className=" w-[80%]  flex flex-col   items-center  ">
@@ -58,4 +58,4 @@ const Details = () => {
   );
 };
 
-export default Details;
+export default Client;

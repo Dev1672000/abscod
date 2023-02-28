@@ -15,7 +15,7 @@ const Button = ({
   margin,
   borderRadius,
   background,
-  letterSpacing,
+  letterSpacing,buttonArrow
   
 }) => {
   return (
@@ -34,12 +34,14 @@ border,
 borderColor,
 fontSize,
 background,
-lineHeight
+lineHeight,
        
         
       }}
     >
       {buttonText}
+      <span className=" bg-gray-400 text-[18px]  ml-[10px] pb-[1px] rounded-full">
+      {buttonArrow}</span>
     </button>
   );
 };

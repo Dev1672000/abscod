@@ -7,7 +7,7 @@ const Home = () => {
     <div style={{
       overflow:"hidden"
     }}>
-    <div className="px-[10px]  flex flex-row justify-evenly "
+    <div className="px-[10px]  sm:flex flex-auto  flex flex-row justify-evenly "
       style={{ position:"relative",
         backgroundImage: `url("Rectangle1.png")`,
         backgroundSize:"cover",
@@ -37,7 +37,7 @@ const Home = () => {
         filter: "blur(79px)"
       }}>
       </div>
-      <div className=" flex flex-col z-[0] content-center justify-center ml-[100px] w-[50%] ">
+      <div className="pt-[10%] flex flex-col z-[0] content-center justify-center ml-[100px] w-[50%] sm:text-[14px] ">
         <h1
           className="text-[#FFDB16]   tracking-[0.28em]  uppercase  font-[700] text-[20px] leading-[28px]">
           Customized Website Solutions
@@ -52,7 +52,7 @@ const Home = () => {
           requirements. Whether you need a simple brochure website or a complex
           e-commerce platform,
         </p>
-        <div className="flex justify-start content-start my-[20px] ">
+        <div className="flex justify-start content-start my-[20px]  ">
           <Button
             height="60px"
             fontWeight="700"
@@ -66,7 +66,7 @@ const Home = () => {
             borderRadius="8px"
             buttonText="Explore More"
             width="200px"
-            background="background: linear-gradient(270deg, #FFDA10 0%, #FFE555 100%)"
+            background="linear-gradient(270deg, #FFDA10 0%, #FFE555 100%)"
           />
           <Button
             height="60px"
@@ -81,12 +81,13 @@ const Home = () => {
             borderRadius="8px"
             buttonText="Contact Us"
             width="200px"
+            
             background="linear-gradient(270deg, #406CD7 0%, #3BC1E4 100%)"
           />
           </div>
       </div>
-      <div className="mt-[150px] z-[2] w-[50%] h-full ">
-        <img src={img3} alt="" height="100%" width="100%" />
+      <div className="mt-[150px]  z-[2] w-[100%] h-[100%] ">
+        <img src={img3} alt=""  width="70%" className="ml-[12%]" />
       </div>
     </div></div>
   );

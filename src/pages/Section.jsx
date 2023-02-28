@@ -4,11 +4,8 @@ import SectionCart from "../components/carts/SectionCart";
 
 const Section = () => {
   return (
-    <div className=" py-[7%] flex flex-col justify-evenly content-evenly items-center  w-[100%] h-[100%] bg-[#1E1E1E]">
- <div style={{
-  background: "radial-gradient(50% 50% at 50% 50%, rgba(61, 159, 223, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%)",
-  filter: "blur(79px)"
- }}></div>
+    <div className=" py-[7%] flex flex-col justify-evenly content-evenly items-center  w-[100%] h-[100%] relative z-[2] ">
+ 
       <Heading
         content={" Lorem ipsum dolor sit amet, consectetur adipiscing consectetur  elit."}/>
       <div className="flex flex-row flex-wrap  justify-center mt-[3%]">

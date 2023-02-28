@@ -9,8 +9,9 @@ import avtar from "../Images/avtar.png"
 const ClientFeedback = () => {
   return (
     
-      <div className="py-[7%] h-[100%] w-[100%] bg-[#000000]">
+      <div className="py-[7%] h-[100%] w-[100%] relative z-[2]">
          <div className="flex  justify-around  ">
+         
           <div className="ml-[-150px]">
          <Heading content={"What our clients say?"}/></div>
         <Button
@@ -29,7 +30,7 @@ const ClientFeedback = () => {
             borderRadius="4px"
             buttonText="See All Posts"
             width="181px"
-            background="yellow"
+            background="linear-gradient(270deg, #FFDA10 0%, #FFE555 100%)"
           />
           </div>
           <div className="flex mt-[20px]">

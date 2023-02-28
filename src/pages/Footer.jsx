@@ -6,13 +6,13 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 const Footer = () => {
   return (
-    <div className="flex flex-col p-[0%]">
-      <div className="  bg-[#ffffff]  w-[100%] h-[100%] flex flex-row justify-between ">
-        <div  className="  flex flex-col justify-start content-center  pl-[15px] w-[30%]  bg-[#000000] ">
+    <div className="flex flex-col ">
+      <div className="  bg-[#ffffff]  w-[100%] h-[100%] flex flex-row justify-between z-[2] relative ">
+        <div  className=" pl-[40px] flex flex-col justify-start content-center   w-[25%]  bg-[#000000] ">
           <div className="">
-              <a href="/" class="">
-              <img src={icon} alt="icon" width="60%" height="60%" />
-            </a>
+            <span>
+              <img src={icon} alt="icon" width="200px" height="90px" />
+              </span>
           </div>
           <p className="text-[#ffffff] ml-[18px] w-[70%]">
             Lorem ipsum dolor sit amet, consectetur adipiscing consectetur
@@ -54,17 +54,17 @@ const Footer = () => {
               <p className="mt-[10px]">SMM</p>
             </p>
           </div>
-         
-          <div className="flex flex-col ">
-            <h1 className="text-[#000000] font-[600] leading-[30px] text-[25px] ">
-              Features
+          <div className="bg-[#ffffff]">
+            <h1 className="text-[#000000] font-[600] leading-[30px] text-[25px]  ">
+            Features
             </h1>
-            <div className=" text-[#000000] leading-[19px] font-[400] m-[5px] text-[16px]"></div>
-            <p className="mt-[10px]">Brand Strategy</p>
-            <p className="mt-[10px]">Audience Analytics</p>
-            <p className="mt-[10px]">Copywriting</p>
-            <p className="mt-[10px]">Team Training</p>
-            <p className="mt-[10px]">Email Marketing</p>
+            <p className="text-[#000000] leading-[19px] font-[400] m-[5px] text-[16px]">
+              <p className="mt-[10px]">Brand Strategy</p>
+              <p className="mt-[10px]">Audience Analytics</p>
+              <p className="mt-[10px]">Copywriting</p>
+              <p className="mt-[10px]">Team Training</p>
+              <p className="mt-[10px]">Email Marketing</p>
+            </p>
           </div>
         </div>
         
