@@ -83,7 +83,7 @@ const Home = () => {
               color="white"
               // border="1px solid "
               borderColor
-              margin="0px 0px 0px 0px"
+              margin="0px 10px 10px 0px"
               fontSize="20px"
               borderRadius="8px"
               buttonText="Contact Us"

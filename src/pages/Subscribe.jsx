@@ -3,7 +3,7 @@ import Button from "../components/Button";
 
 const Subscribe = () => {
   return (
-    <div className="bg-[#000000] w-[100%] h-[100%] py-[7%] " >
+    <div className="bg-[#000000] w-auto h-auto py-[7%]  " >
       <div style={{
         
 position: "absolute",
@@ -15,8 +15,8 @@ zIndex:"0",
 background: "radial-gradient(50% 50% at 50% 50%, rgba(61, 159, 223, 0.83) 0%, rgba(0, 0, 0, 0.83) 100%)",
 filter: "blur(79px)"
       }}></div>
-    <div style={{background: "linear-gradient(180deg, #0F0F0F 0%, #181818 100%)"}} className="z-[5] relative py-[7%] px-[5%]  mx-[5%] h-[400px] border-[1px]  flex flex-col justify-center content-evenly items-center text-[#ffffff]  rounded-[28px] ">
-      < div className=" font-[800] leading-[110%] text-[45px]  mb-[30px] ">
+    <div style={{background: "linear-gradient(180deg, #0F0F0F 0%, #181818 100%)"}} className="z-[5] relative py-[7%] mx-[3%]  md:mx-[9%] md:w-[1240px] md:h-[400px] border-[1px]  flex flex-col justify-center content-evenly items-center text-[#ffffff]  rounded-[28px] ">
+      < div className=" font-[800] leading-[110%] text-[45px] px-[5px] mb-[30px] ">
         Subscribe to our <span className="text-yellow-200">newsletter</span>
       </div>
     

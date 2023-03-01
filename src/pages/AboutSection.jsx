@@ -3,7 +3,7 @@ import About from './About'
 import Section from './Section'
 const AboutSection = () => {
   return (
-    <div className='bg-[#000000] px-[5%]'>
+    <div className='bg-[#000000] px-[5%] overflow-hidden'>
         <div style={{
             position: "absolute",
             width: "1310px",
