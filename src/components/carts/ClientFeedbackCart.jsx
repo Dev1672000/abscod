@@ -4,7 +4,7 @@ import React from 'react'
 
 function ClientFeedbackCart({quote,avtar,name,position}) {
   return (
-    <div className='py-[2%] m-[15px] px-[2%] content-evenly box-border text-[#ffffff] w-[534px] h-[314px] rounded-[28px] ' style={{
+    <div className='py-[2%] m-[15px] px-[2%] content-evenly box-border text-[#ffffff] md:w-[534px] md:h-[314px] rounded-[28px] ' style={{
         background: "linear-gradient(180deg, #0F0F0F 0%, #181818 100%)",
 border: "1px solid #424"
     }}>
