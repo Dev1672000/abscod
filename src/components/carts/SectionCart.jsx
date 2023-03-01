@@ -6,7 +6,7 @@ const SectionCart = ({cartHeading ,cartcontent}) => {
          <div style={{ borderRadius:"25px",
           borderImage: "linear-gradient(180deg,#FFDA10,#584E16,  #4A4112)",
           "border-image-slice": "1",
-         }} className='w-[384px]  mx-[15px] p-[32px] h-[300px] flex flex-col content-between justify-between border-2  bg-[#000000] '>
+         }} className='w-auto px-[10px] my-[10px] mx-[15px] p-[32px] h-[300px] flex flex-col content-between justify-between border-2  bg-[#000000]  '>
               <div>
                 <img src={sectionIcon} alt="" height="25px" width="25px" />
                 </div>

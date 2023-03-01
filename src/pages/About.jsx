@@ -10,7 +10,7 @@ import teamIcon from "../Images/teamIcon.png"
 const About = () => {
   return (
     <>
-      <div className="py-[7%]  w-[100%] overflow-hidden ">
+      <div className="py-[7%]  overflow-hidden ">
        <div style={{position: "absolute",
 width: "1410px",
 height: "1097px",
@@ -22,14 +22,14 @@ filter: "blur(79px)" }}></div>
         <Heading content={"About section - Who we are"}/>
         <SubHeading SubHeading={"Some description about company - Lorem ipsum dolor sit amet, consectetur adipiscing consectetur  elit.Lorem ipsum dolor sit amet, consectetur adipiscing consectetur  elit.Lorem ipsum dolor sit amet, consectetur adipiscing consectetur  elit.Lorem ipsum dolor sit amet, consectetur adipiscing consectetur  elit."}/>
         </div>
-        <div className="flex  justify-evenly content-evenly items-center  relative z-[2]">
-          <div className="flex flex-col justify-between content-between">
-            <div className="mt-[0px] mb-[50px]">
+        <div className=" flex  justify-evenly content-evenly items-center flex-wrap  relative z-[2]">
+          <div className="  flex flex-col justify-between content-between">
+            <div className="mt-[0px] mb-[50px] flex ">
             <AboutCart Icon={missionIcon} cartContent={"Lorem ipsum dolor sit amet, consectetur adipiscing consectetur  elit.Lorem ipsum dolor sit amet, consectetur adipiscing consectetur  "} cartHeading={"our mission"}/>
             </div>
             <AboutCart Icon={valueIcon} cartContent={"Lorem ipsum dolor sit amet, consectetur adipiscing consectetur  elit.Lorem ipsum dolor sit amet, consectetur adipiscing consectetur  "} cartHeading={"Our values"}/>
           </div>
-          <div className="">
+          <div className="my-[50px] px-[5px]">
             <img src={logo1} alt="" width="100%"  height="100%"/>
           </div>
           <div>

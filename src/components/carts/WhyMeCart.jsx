@@ -2,7 +2,7 @@ import React from 'react'
 
 const WhyMeCart = ({progress,content,src}) => {
   return (
-    <div className='flex flex-col justify-end content-end mb-[18px] border-[1px]  border-[#332929] rounded-[8px]'>
+    <div className='flex flex-col justify-end content-end mx-[15px] my-[15px] border-[1px]  border-[#332929] rounded-[8px]'>
       <div className='flex justify-center'>
       <img src={src} alt="" width="126px" height="126px"  />
       </div>

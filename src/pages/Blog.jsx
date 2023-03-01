@@ -9,8 +9,8 @@ const Blog = () => {
       <>
      
 
-        <div className="py-[6%]  h-[100%] w-[100%] z-[2] relative ">
-          <div className="flex  justify-between  mx-[9%] py-[4%]">
+        <div className="py-[6%]  h-[100%] w-[100%] z-[2]  relative ">
+          <div className="flex flex-wrap justify-between  mx-[9%]  py-[6%]">
           <h1 className="text-[#ffffff] text-[41px]  uppercase content-start  font-[900] tracking-[-0.02em] leading-[56px]">
             bLOG POST
           </h1>
@@ -34,7 +34,7 @@ const Blog = () => {
             background="linear-gradient(270deg, #FFDA10 0%, #FFE555 100%)"
           />
           </div>
-          <div className="flex flex-row justify-items-center justify-center   ">
+          <div className="flex flex-row flex-wrap justify-items-center justify-center   ">
           <BlogCart content={"How to increase your Twitter reach by over 200% with this simple trick"} img={blog1} date="September 1, 2022"/>
           <BlogCart content={"How to increase your Twitter reach by over 200% with this simple trick"} img={blog1} date="September 1, 2022"/>
           <BlogCart content={"How to increase your Twitter reach by over 200% with this simple trick"} img={blog1} date="September 1, 2022"/>

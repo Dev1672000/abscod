@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Heading = ({content}) => {
+const Heading = ({content,margin}) => {
   return (
-    <div className='font-[900] text-[#ffffff] w-[900px] text-[42px] my-[10px]  text-center leading-[56px] uppercase tracking-[-0.02em]'>
+    <div style={{margin}} className='font-[900] w-auto text-[#ffffff] h-auto text-[42px] my-[10px]  text-center leading-[56px] uppercase tracking-[-0.02em]  whitespace-normal md:w-[975px] md:[120px]'>
     {content}
     </div>
   )

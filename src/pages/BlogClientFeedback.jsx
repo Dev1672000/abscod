@@ -16,7 +16,7 @@ const BlogClientFeedback = () => {
             filter: "blur(79px)"
         }}></div>
          <ClientFeedback />
-            <hr className='w-1/2 mx-auto border-l-2 border-r-2 border-yellow-300  ' />
+            <hr className='w-1/2 mx-auto border-l-2 border-r-2 border-yellow-300' />
       <Blog />
     </div>
   )

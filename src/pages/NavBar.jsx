@@ -28,7 +28,7 @@ const NavBar = () => {
 
         <div
           onClick={() => setOpen(!open)}
-          className="text-3xl absolute right-[18%]  top-[7%] text-[#ffffff] cursor-pointer md:hidden"
+          className="text-3xl absolute right-[20%]  top-[20%] text-[#ffffff] cursor-pointer md:hidden"
         >
           {
             open ? <CloseIcon className="lg:hidden  flex absolute left-3"></CloseIcon>:<MenuIcon className="lg:hidden  flex absolute left-3"></MenuIcon>
