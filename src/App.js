@@ -2,7 +2,7 @@ import "./App.css";
 import React from "react";
 import NavBar from "./pages/NavBar";
 import Home from "./pages/Home";
-import About from "./pages/About";
+// import About from "./pages/About";
 import Services from "./pages/Services";
 import WhyMe from "./pages/WhyMe";
 import Client from "./pages/Client";
