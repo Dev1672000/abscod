@@ -6,7 +6,7 @@ const AboutSection = () => {
     <div className='bg-[#000000] px-[5%] overflow-hidden'>
         <div style={{
             position: "absolute",
-            width: "1310px",
+            // width: "1310px",
             height: "1397px",
             left: "-796px",
             top: "897px",

@@ -12,7 +12,7 @@ const About = () => {
     <>
       <div className="py-[7%]  overflow-hidden ">
        <div style={{position: "absolute",
-width: "1410px",
+// width: "1410px",
 height: "1097px",
 overflow:"hidden",
 zIndex:"0",

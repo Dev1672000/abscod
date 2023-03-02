@@ -9,7 +9,7 @@ const WhyMe = () => {
       <div style={{
         background: "linear-gradient(83.27deg, #406CD7 0.84%, #3F9FDF 97.91%)"
       }}></div>
-      <div className="flex flex-row justify-center w-[5%]  h-[100] mr-[-45px] ">
+      <div className="hidden md:visible md:flex flex-row justify-center w-[5%]  h-[100] mr-[-45px] ">
       <div className=" w-[7px]  bg-[#406DD7]"></div>
       <div className=" w-[7px] ml-[-35px] bg-[#406DD7]"></div>
       </div>
@@ -49,7 +49,7 @@ const WhyMe = () => {
      
       </div>
     </div>
-    <div className="flex flex-row justify-center w-[5%] h-[100] ml-[-45px]">
+    <div className="hidden md:visible md:flex flex-row justify-center w-[5%] h-[100] ml-[-45px]">
       <div className=" w-[7px]  bg-[#3F9BDF]"></div>
       <div className=" w-[7px] ml-[-35px] bg-[#3F9BDF]"></div>
       </div>

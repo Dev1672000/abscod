@@ -1,5 +1,5 @@
 import React from "react";
-import icon from "../Images/Image.png";
+import icon from "../Images/abscod.png";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import TwitterIcon from "@mui/icons-material/Twitter";
@@ -14,12 +14,12 @@ const Footer = () => {
               <img src={icon} alt="icon" width="200px" height="90px" />
               </span>
           </div>
-          <p className="text-[#ffffff] ml-[18px] w-[70%]">
+          <p className="text-[#ffffff]  w-[70%]">
             Lorem ipsum dolor sit amet, consectetur adipiscing consectetur
             elit.Lorem ipsum dolor sit amet, consectetur adipiscing consectetur{" "}
           </p>
-          <span className="text-[#ffffff] ml-[10px]   leading-[27px]  ">
-            <a href="/"><FacebookIcon style={{margin:"5px"}}/>
+          <span className="text-[#ffffff]    leading-[27px]  ">
+            <a href="/"><FacebookIcon style={{margin:"px"}}/>
             </a>
             <a href="/"> <InstagramIcon style={{margin:"5px"}}/>
             </a>

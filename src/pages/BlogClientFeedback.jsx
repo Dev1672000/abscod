@@ -6,7 +6,7 @@ const BlogClientFeedback = () => {
     <div className='bg-[#000000] '>
         <div style={{
             position: "absolute",
-            width: "938px",
+            // width: "938px",
             height: "1200px",
             left: "-50px",
             top: "4709px",

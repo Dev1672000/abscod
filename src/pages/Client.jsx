@@ -9,7 +9,7 @@ const Client = () => {
         background: "linear-gradient(90.15deg, #3E9FDF -0.4%, #4070D8 99.87%)",
       }}
       className="px-[5px] h-auto w-auto md:h-[300px] flex flex-row content-evenly justify-evenly  items-center z-[2] relative overflow-hidden">
-        <div className="flex flex-row justify-center w-[5%] h-[300px] mx-[10px] ">
+        <div className="hidden md:visible md:flex flex-row justify-center w-[5%] h-[300px] mx-[10px] ">
       <div className=" w-[7px]  bg-[rgba(27,24,24,0.95)]"></div>
       <div className=" w-[7px] ml-[-35px] bg-[#000000]"></div>
       </div>
@@ -48,7 +48,7 @@ const Client = () => {
             />
         </div>
       </div>
-       <div className="flex flex-row justify-center w-[5%] h-[300px] ">
+       <div className="hidden md:visible md:flex flex-row justify-center w-[5%] h-[300px] ">
       <div className=" w-[7px]  bg-[#000000]"></div>
       <div className=" w-[7px] ml-[-35px] bg-[#000000]"></div>
       </div>

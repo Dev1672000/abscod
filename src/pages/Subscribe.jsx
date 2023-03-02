@@ -7,7 +7,7 @@ const Subscribe = () => {
       <div style={{
         
 position: "absolute",
-width: "758px",
+// width: "758px",
 height: "657px",
 left: "763px",
 top: "6309px",
